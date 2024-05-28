@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./mobile-light.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="mobile-light">
+      <div class="wrform1">
+        <form class="frame-form">
+          <div class="welcome-back-group">
+            <h1 class="welcome-back2">welcome back!</h1>
+            <div class="body3">
+              Enter your details below to sign in into your account
+            </div>
+          </div>
+          <div class="frame-parent4">
+            <div class="frame-parent5">
+              <div class="flat-color-iconsgoogle-group">
+                <input class="flat-color-iconsgoogle2" type="checkbox" />
+
+                <div class="continue-google2">continue google</div>
+              </div>
+              <div class="logosfacebook-group">
+                <input class="logosfacebook" type="checkbox" />
+
+                <div class="continue-facebok2">continue facebok</div>
+              </div>
+            </div>
+            <div class="line-parent">
+              <div class="frame-child1"></div>
+              <div class="or2">or</div>
+              <div class="frame-child2"></div>
+            </div>
+            <div class="frame-parent6">
+              <div class="frame-parent7">
+                <div class="email-group">
+                  <a class="email2">Email</a>
+                  <div class="enter-your-email-container">
+                    <input
+                      class="enter-your-email2"
+                      placeholder="Enter your email"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div class="password-group">
+                  <div class="password2">Password</div>
+                  <div class="enter-password-container">
+                    <input
+                      class="enter-password2"
+                      placeholder="Enter Password"
+                      type="text"
+                    />
+
+                    <img
+                      class="visibility-off-icon2"
+                      alt=""
+                      src="./public/visibility-off.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="forgot-password2">forgot Password?</div>
+            </div>
+          </div>
+          <div class="frame-parent8">
+            <button class="login-container">
+              <b class="login2">Login</b>
+            </button>
+            <div class="dont-have-an-account-group">
+              <div class="dont-have-an2">don’t have an account?</div>
+              <b class="sign-up2">sign up</b>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="settings-container">
+        <div class="settings4" id="settingsContainer">
+          <img class="settings-02-icon3" alt="" src="./public/settings02.svg" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var settingsContainer = document.getElementById("settingsContainer");
+      if (settingsContainer) {
+        settingsContainer.addEventListener("click", function (e) {
+          window.location.href = "./settings.html";
+        });
+      }
+      </script>
+  </body>
+</html>

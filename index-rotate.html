@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index-rotate.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="index-rotate">
+      <div class="index-rotate-inner">
+        <div class="frame-parent9">
+          <div class="settings-frame">
+            <div class="settings5" id="settingsContainer">
+              <img
+                class="settings-02-icon4"
+                alt=""
+                src="./public/settings02.svg"
+              />
+            </div>
+          </div>
+          <form class="frame-parent10">
+            <div class="welcome-back-container">
+              <h1 class="welcome-back3">welcome back!</h1>
+              <div class="body4">
+                Enter your details below to sign in into your account
+              </div>
+            </div>
+            <div class="frame-parent11">
+              <div class="frame-parent12">
+                <button class="flat-color-iconsgoogle-container">
+                  <img
+                    class="flat-color-iconsgoogle3"
+                    alt=""
+                    src="./public/flatcoloriconsgoogle.svg"
+                  />
+
+                  <div class="continue-google-container">
+                    <div class="continue-google3">continue google</div>
+                  </div>
+                </button>
+                <button class="logosfacebook-container">
+                  <img
+                    class="logosfacebook-icon2"
+                    alt=""
+                    src="./public/logosfacebook.svg"
+                  />
+
+                  <div class="continue-facebok-frame">
+                    <div class="continue-facebok3">continue facebok</div>
+                  </div>
+                </button>
+              </div>
+              <div class="frame-wrapper2">
+                <div class="frame-parent13">
+                  <div class="line-wrapper2">
+                    <div class="frame-child3"></div>
+                  </div>
+                  <div class="or3">or</div>
+                  <div class="line-wrapper3">
+                    <div class="frame-child4"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="frame-parent14">
+                <div class="frame-parent15">
+                  <div class="email-container">
+                    <div class="email3">Email</div>
+                    <div class="enter-your-email-frame">
+                      <input
+                        class="enter-your-email3"
+                        placeholder="Enter your email"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div class="password-container">
+                    <div class="password3">Password</div>
+                    <div class="enter-password-parent1">
+                      <input
+                        class="enter-password3"
+                        placeholder="Enter Password"
+                        type="text"
+                      />
+
+                      <img
+                        class="visibility-off-icon3"
+                        alt=""
+                        src="./public/visibility-off.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="forgot-password3">forgot Password?</div>
+              </div>
+            </div>
+            <div class="frame-parent16">
+              <button class="login-frame">
+                <b class="login3">Login</b>
+              </button>
+              <div class="frame-wrapper3">
+                <div class="dont-have-an-account-container">
+                  <div class="dont-have-an3">don’t have an account?</div>
+                  <b class="sign-up3">sign up</b>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <img
+        class="index-rotate-child"
+        loading="lazy"
+        alt=""
+        src="./public/frame-34@2x.png"
+      />
+    </div>
+
+    <script>
+      var settingsContainer = document.getElementById("settingsContainer");
+      if (settingsContainer) {
+        settingsContainer.addEventListener("click", function (e) {
+          window.location.href = "./settings.html";
+        });
+      }
+      </script>
+  </body>
+</html>

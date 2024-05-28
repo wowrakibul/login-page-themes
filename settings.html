@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./settings.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="settings3">
+      <img class="settings-child" alt="" src="./public/frame-43@2x.png" />
+
+      <div class="settings-item"></div>
+      <div class="settings-layout-parent">
+        <div class="settings-layout">
+          <div class="layout-options">
+            <h1 class="change-layout">Change Layout & Settings</h1>
+            <img
+              class="vector-1-stroke"
+              loading="lazy"
+              alt=""
+              src="./public/vector-1-stroke.svg"
+            />
+          </div>
+          <div class="content1">
+            <div class="desktop-stroke">
+              <div class="desktop-view">Desktop View</div>
+              <img
+                class="vector-1-stroke1"
+                loading="lazy"
+                alt=""
+                src="./public/vector-1-stroke-1.svg"
+              />
+
+              <div class="component-1-parent">
+                <button class="component-1" id="component1">
+                  <div class="vision-pro">Desktop Default</div>
+                </button>
+                <button class="component-2" id="component2">
+                  <div class="vision-pro1">Desk Left Aligned</div>
+                </button>
+              </div>
+            </div>
+            <div class="desktop-stroke1">
+              <div class="desktop-view1">Desktop View</div>
+              <img
+                class="vector-1-stroke2"
+                loading="lazy"
+                alt=""
+                src="./public/vector-1-stroke-1.svg"
+              />
+
+              <div class="component-1-group">
+                <button class="component-11" id="component11">
+                  <div class="vision-pro2">Mobile Dark</div>
+                </button>
+                <button class="component-21" id="component21">
+                  <div class="vision-pro3">Mobile Light</div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="image-container-parent">
+          <div class="image-container">
+            <img
+              class="image-1-icon"
+              loading="lazy"
+              alt=""
+              src="./public/image-1@2x.png"
+            />
+
+            <img
+              class="image-2-icon"
+              loading="lazy"
+              alt=""
+              src="./public/image-2@2x.png"
+            />
+          </div>
+          <div class="image-container1">
+            <img
+              class="image-4-icon"
+              loading="lazy"
+              alt=""
+              src="./public/image-4@2x.png"
+            />
+
+            <img
+              class="image-3-icon"
+              loading="lazy"
+              alt=""
+              src="./public/image-3@2x.png"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="settings-inner"></div>
+      <div class="made-by-wow-rakibul-wrapper">
+        <div class="made-by-container">
+          <span>Made 💖 by </span>
+          <a
+            class="wow-rakibul"
+            href="https://bento.me/wowrakibul"
+            target="_blank"
+          >
+            <span class="wow-rakibul1">Wow-Rakibul</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var component1 = document.getElementById("component1");
+      if (component1) {
+        component1.addEventListener("click", function (e) {
+          window.location.href = "./index1.html";
+        });
+      }
+      
+      var component2 = document.getElementById("component2");
+      if (component2) {
+        component2.addEventListener("click", function (e) {
+          window.location.href = "./index-rotate.html";
+        });
+      }
+      
+      var component11 = document.getElementById("component11");
+      if (component11) {
+        component11.addEventListener("click", function (e) {
+          window.location.href = "./mobile-dark.html";
+        });
+      }
+      
+      var component21 = document.getElementById("component21");
+      if (component21) {
+        component21.addEventListener("click", function (e) {
+          window.location.href = "./mobile-light.html";
+        });
+      }
+      </script>
+  </body>
+</html>

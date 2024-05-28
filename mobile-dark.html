@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./mobile-dark.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="mobile-dark">
+      <div class="mobile-dark-child"></div>
+      <form class="wrform">
+        <div class="welcome-back-parent">
+          <h1 class="welcome-back1">welcome back!</h1>
+          <div class="body2">
+            Enter your details below to sign in into your account
+          </div>
+        </div>
+        <div class="frame-group">
+          <div class="frame-container">
+            <button class="flat-color-iconsgoogle-parent">
+              <img
+                class="flat-color-iconsgoogle1"
+                alt=""
+                src="./public/flatcoloriconsgoogle.svg"
+              />
+
+              <div class="continue-google-wrapper">
+                <div class="continue-google1">continue google</div>
+              </div>
+            </button>
+            <button class="logosfacebook-parent">
+              <img
+                class="logosfacebook-icon1"
+                alt=""
+                src="./public/logosfacebook.svg"
+              />
+
+              <div class="continue-facebok-container">
+                <div class="continue-facebok1">continue facebok</div>
+              </div>
+            </button>
+          </div>
+          <div class="frame-wrapper">
+            <div class="frame-div">
+              <div class="line-frame">
+                <div class="frame-inner"></div>
+              </div>
+              <div class="or1">or</div>
+              <div class="line-wrapper1">
+                <div class="line-div"></div>
+              </div>
+            </div>
+          </div>
+          <div class="frame-parent1">
+            <div class="frame-parent2">
+              <div class="email-parent">
+                <div class="email1">Email</div>
+                <div class="enter-your-email-wrapper">
+                  <input
+                    class="enter-your-email1"
+                    placeholder="Enter your email"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div class="password-parent">
+                <div class="password1">Password</div>
+                <div class="enter-password-group">
+                  <input
+                    class="enter-password1"
+                    placeholder="Enter Password"
+                    type="text"
+                  />
+
+                  <img
+                    class="visibility-off-icon1"
+                    alt=""
+                    src="./public/visibility-off.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="forgot-password1">forgot Password?</div>
+          </div>
+        </div>
+        <div class="frame-parent3">
+          <button class="login-wrapper">
+            <b class="login1">Login</b>
+          </button>
+          <div class="frame-wrapper1">
+            <div class="dont-have-an-account-parent">
+              <div class="dont-have-an1">don’t have an account?</div>
+              <b class="sign-up1">sign up</b>
+            </div>
+          </div>
+        </div>
+      </form>
+      <div class="settings-wrapper">
+        <div class="settings2" id="settingsContainer">
+          <img class="settings-02-icon2" alt="" src="./public/settings02.svg" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var settingsContainer = document.getElementById("settingsContainer");
+      if (settingsContainer) {
+        settingsContainer.addEventListener("click", function (e) {
+          window.location.href = "./settings.html";
+        });
+      }
+      </script>
+  </body>
+</html>

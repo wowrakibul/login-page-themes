@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="index">
+      <img
+        class="header-icon"
+        loading="lazy"
+        alt=""
+        src="./public/frame-34@2x.png"
+      />
+
+      <div class="settings-02-wrapper">
+        <img class="settings-02-icon" alt="" src="./public/settings02.svg" />
+      </div>
+      <div class="main">
+        <div class="content">
+          <form class="welcome">
+            <div class="body">
+              <h1 class="welcome-back">welcome back!</h1>
+              <div class="body1">
+                Enter your details below to sign in into your account
+              </div>
+            </div>
+            <div class="social-login">
+              <div class="social-icons">
+                <button class="icon-row">
+                  <img
+                    class="flat-color-iconsgoogle"
+                    alt=""
+                    src="./public/flatcoloriconsgoogle.svg"
+                  />
+
+                  <div class="continue-buttons">
+                    <div class="continue-google">continue google</div>
+                  </div>
+                </button>
+                <button class="icon-row1">
+                  <img
+                    class="logosfacebook-icon"
+                    alt=""
+                    src="./public/logosfacebook.svg"
+                  />
+
+                  <div class="continue-facebok-wrapper">
+                    <div class="continue-facebok">continue facebok</div>
+                  </div>
+                </button>
+              </div>
+              <div class="separator">
+                <div class="frame-parent">
+                  <div class="line-wrapper">
+                    <div class="frame-child"></div>
+                  </div>
+                  <div class="or">or</div>
+                  <div class="line-container">
+                    <div class="frame-item"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="login-form">
+                <div class="input-fields">
+                  <div class="input-row">
+                    <div class="email">Email</div>
+                    <div class="input-boxes">
+                      <input
+                        class="enter-your-email"
+                        placeholder="Enter your email"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div class="input-row1">
+                    <div class="password">Password</div>
+                    <div class="enter-password-parent">
+                      <input
+                        class="enter-password"
+                        placeholder="Enter Password"
+                        type="text"
+                      />
+
+                      <img
+                        class="visibility-off-icon"
+                        alt=""
+                        src="./public/visibility-off.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="forgot-password">forgot Password?</div>
+              </div>
+            </div>
+            <div class="actions">
+              <button class="login-button">
+                <b class="login">Login</b>
+              </button>
+              <div class="signup">
+                <div class="signup-link">
+                  <div class="dont-have-an">don’t have an account?</div>
+                  <b class="sign-up">sign up</b>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="settings">
+            <div class="settings1" id="settingsContainer">
+              <img
+                class="settings-02-icon1"
+                alt=""
+                src="./public/settings02.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var settingsContainer = document.getElementById("settingsContainer");
+      if (settingsContainer) {
+        settingsContainer.addEventListener("click", function (e) {
+          window.location.href = "./settings.html";
+        });
+      }
+      </script>
+  </body>
+</html>
